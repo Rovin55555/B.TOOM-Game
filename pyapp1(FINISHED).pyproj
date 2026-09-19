@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e3c57762-3d02-4b28-9fa6-fc94146c056b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>animation.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app\assets\alien.png" />
+    <Content Include="app\assets\alien\alien1.png" />
+    <Content Include="app\assets\alien\alien10.png" />
+    <Content Include="app\assets\alien\alien11.png" />
+    <Content Include="app\assets\alien\alien12.png" />
+    <Content Include="app\assets\alien\alien13.png" />
+    <Content Include="app\assets\alien\alien14.png" />
+    <Content Include="app\assets\alien\alien15.png" />
+    <Content Include="app\assets\alien\alien16.png" />
+    <Content Include="app\assets\alien\alien17.png" />
+    <Content Include="app\assets\alien\alien18.png" />
+    <Content Include="app\assets\alien\alien19.png" />
+    <Content Include="app\assets\alien\alien2.png" />
+    <Content Include="app\assets\alien\alien20.png" />
+    <Content Include="app\assets\alien\alien21.png" />
+    <Content Include="app\assets\alien\alien22.png" />
+    <Content Include="app\assets\alien\alien23.png" />
+    <Content Include="app\assets\alien\alien24.png" />
+    <Content Include="app\assets\alien\alien3.png" />
+    <Content Include="app\assets\alien\alien4.png" />
+    <Content Include="app\assets\alien\alien5.png" />
+    <Content Include="app\assets\alien\alien6.png" />
+    <Content Include="app\assets\alien\alien7.png" />
+    <Content Include="app\assets\alien\alien8.png" />
+    <Content Include="app\assets\alien\alien9.png" />
+    <Content Include="app\assets\banner.png" />
+    <Content Include="app\assets\bg.jpg" />
+    <Content Include="app\assets\bg3.jpg" />
+    <Content Include="app\assets\bg4.jpg" />
+    <Content Include="app\assets\button.png" />
+    <Content Include="app\assets\comet.png" />
+    <Content Include="app\assets\image-copyright.png" />
+    <Content Include="app\assets\mummy.png" />
+    <Content Include="app\assets\mummygif.gif" />
+    <Content Include="app\assets\mummy\mummy1.png" />
+    <Content Include="app\assets\mummy\mummy10.png" />
+    <Content Include="app\assets\mummy\mummy11.png" />
+    <Content Include="app\assets\mummy\mummy12.png" />
+    <Content Include="app\assets\mummy\mummy13.png" />
+    <Content Include="app\assets\mummy\mummy14.png" />
+    <Content Include="app\assets\mummy\mummy15.png" />
+    <Content Include="app\assets\mummy\mummy16.png" />
+    <Content Include="app\assets\mummy\mummy17.png" />
+    <Content Include="app\assets\mummy\mummy18.png" />
+    <Content Include="app\assets\mummy\mummy19.png" />
+    <Content Include="app\assets\mummy\mummy2.png" />
+    <Content Include="app\assets\mummy\mummy20.png" />
+    <Content Include="app\assets\mummy\mummy21.png" />
+    <Content Include="app\assets\mummy\mummy22.png" />
+    <Content Include="app\assets\mummy\mummy23.png" />
+    <Content Include="app\assets\mummy\mummy24.png" />
+    <Content Include="app\assets\mummy\mummy3.png" />
+    <Content Include="app\assets\mummy\mummy4.png" />
+    <Content Include="app\assets\mummy\mummy5.png" />
+    <Content Include="app\assets\mummy\mummy6.png" />
+    <Content Include="app\assets\mummy\mummy7.png" />
+    <Content Include="app\assets\mummy\mummy8.png" />
+    <Content Include="app\assets\mummy\mummy9.png" />
+    <Content Include="app\assets\player.png" />
+    <Content Include="app\assets\player\player1.png" />
+    <Content Include="app\assets\player\player10.png" />
+    <Content Include="app\assets\player\player11.png" />
+    <Content Include="app\assets\player\player12.png" />
+    <Content Include="app\assets\player\player13.png" />
+    <Content Include="app\assets\player\player14.png" />
+    <Content Include="app\assets\player\player15.png" />
+    <Content Include="app\assets\player\player16.png" />
+    <Content Include="app\assets\player\player17.png" />
+    <Content Include="app\assets\player\player18.png" />
+    <Content Include="app\assets\player\player19.png" />
+    <Content Include="app\assets\player\player2.png" />
+    <Content Include="app\assets\player\player20.png" />
+    <Content Include="app\assets\player\player21.png" />
+    <Content Include="app\assets\player\player22.png" />
+    <Content Include="app\assets\player\player23.png" />
+    <Content Include="app\assets\player\player24.png" />
+    <Content Include="app\assets\player\player3.png" />
+    <Content Include="app\assets\player\player4.png" />
+    <Content Include="app\assets\player\player5.png" />
+    <Content Include="app\assets\player\player6.png" />
+    <Content Include="app\assets\player\player7.png" />
+    <Content Include="app\assets\player\player8.png" />
+    <Content Include="app\assets\player\player9.png" />
+    <Content Include="app\assets\projectile.png" />
+    <Content Include="desktop.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="animation.py" />
+    <Compile Include="comet.py" />
+    <Compile Include="comet_event.py" />
+    <Compile Include="game.py" />
+    <Compile Include="main.py" />
+    <Compile Include="monster.py" />
+    <Compile Include="player.py" />
+    <Compile Include="projectile.py" />
+    <Compile Include="sounds.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\assets" />
+    <Folder Include="app\assets\alien" />
+    <Folder Include="app\assets\mummy" />
+    <Folder Include="app\assets\player" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
